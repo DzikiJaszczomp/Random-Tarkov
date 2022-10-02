@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Tarkov</title>
+    <link
+      rel="icon"
+      href="./img/wallpaperflare.com_wallpaper.jpg"
+      type="image/icon type"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img src="./img/eq.png" class="eqback" alt="tarkoveq" />
+    <div class="buttons">
+      <button onclick="getRandomHelmet()">Generate Helmet</button>
+
+      <button onclick="getRandomArmor()">Generate Armor</button>
+      <button onclick="getRandomWeapon()">Generate Weapon</button>
+    </div>
+
+    <div class="buttons2">
+      <button onclick="getLoadout()">Generate Loadout</button>
+      <button onClick="window.location.reload();">Reset</button>
+    </div>
+    <span id="result-armor"> </span>
+    <span id="result-helmet"> </span>
+    <span id="result-weapon"></span>
+
+    <footer>
+      Discord: Dziki Jaszczomp#5367 Images source:
+      <a href="https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki"
+        >Tarkov Wiki</a
+      >
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
